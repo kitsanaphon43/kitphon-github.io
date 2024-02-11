@@ -1,0 +1,59 @@
+#menu{
+    padding: 10px;
+    margin-top: 0.5%;
+}
+
+#submid{
+    height: 35px;
+    width: 150px;
+    font-size: small ;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  #headline {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  #formdata{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+  }
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
